@@ -1,10 +1,3 @@
-// @ts-check
-
-/** @typedef {import("eslint").Linter.BaseConfig } BaseConfig */
-
-/** @type {BaseConfig} */
-const config = {
+module.exports = {
   extends: './index.js'
 }
-
-module.exports = config
