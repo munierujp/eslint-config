@@ -7,6 +7,7 @@ ESLint Shareable Config for JavaScript
 
 ## Peer dependencies
 
+- [@eslint-recommended/eslint-config](https://www.npmjs.com/package/@eslint-recommended/eslint-config)
 - [eslint](https://www.npmjs.com/package/eslint)
 - [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard)
 - [eslint-plugin-eslint-comments](https://www.npmjs.com/package/eslint-plugin-eslint-comments)
@@ -15,7 +16,6 @@ ESLint Shareable Config for JavaScript
 - [eslint-plugin-n](https://www.npmjs.com/package/eslint-plugin-n)
 - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
-- [@eslint-recommended/eslint-config](https://www.npmjs.com/package/@eslint-recommended/eslint-config)
 
 ## Usage
 
@@ -35,6 +35,7 @@ Install `@munierujp/eslint-config` and its peer dependencies.
 
 ```sh
 npm i -D \
+  @eslint-recommended/eslint-config \
   eslint \
   eslint-config-standard \
   eslint-plugin-eslint-comments \
@@ -43,7 +44,6 @@ npm i -D \
   eslint-plugin-n \
   eslint-plugin-promise \
   eslint-plugin-unicorn \
-  @eslint-recommended/eslint-config \
   @munierujp/eslint-config
 ```
 
