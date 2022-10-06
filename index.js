@@ -1,9 +1,3 @@
-// @ts-check
-
-/** @typedef {import("eslint").Linter.BaseConfig} BaseConfig */
-/** @typedef {import("eslint").Linter.RulesRecord } RulesRecord */
-
-/** @type {RulesRecord} */
 const unicornRules = {
   // ファイル名のケースはものによって異なる（関数はローワーキャメルケース、クラスはアッパーキャメルケースなど）ので無効化
   'unicorn/filename-case': 'off',
@@ -27,7 +21,6 @@ const unicornRules = {
   'unicorn/switch-case-braces': ['error', 'avoid']
 }
 
-/** @type {RulesRecord} */
 const importRules = {
   'sort-imports': 'off',
   'import/order': ['error', {
@@ -42,8 +35,7 @@ const importRules = {
   }]
 }
 
-/** @type {BaseConfig} */
-const config = {
+module.exports = {
   extends: [
     '@eslint-recommended'
   ],
@@ -55,5 +47,3 @@ const config = {
     ...importRules
   }
 }
-
-module.exports = config
