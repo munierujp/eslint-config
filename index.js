@@ -22,13 +22,16 @@ const unicornRules = {
 }
 
 const importRules = {
+  // 標準のソートを無効化
   'sort-imports': 'off',
+  // アルファベット順にソート
   'import/order': ['error', {
     alphabetize: {
       order: 'asc',
       caseInsensitive: true
     }
   }],
+  // 項目ごとに改行を強制
   'import-newlines/enforce': ['error', {
     items: 1,
     semi: false
