@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/%40munierujp%2Feslint-config.svg)](https://badge.fury.io/js/%40munierujp%2Feslint-config)
-[![eslint](https://github.com/munierujp/eslint-config/actions/workflows/eslint.yml/badge.svg)](https://github.com/munierujp/eslint-config/actions/workflows/eslint.yml)
+[![lint](https://github.com/munierujp/eslint-config/actions/workflows/lint.yml/badge.svg)](https://github.com/munierujp/eslint-config/actions/workflows/lint.yml)
 
 # @munierujp/eslint-config
 
