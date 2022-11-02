@@ -45,5 +45,10 @@
   },
   "homepage": "https://github.com/munierujp/eslint-config",
   "license": "MIT",
-  "dependencies": {}
+  "keywords": [
+    "config",
+    "eslint-config",
+    "eslint",
+    "eslintconfig"
+  ]
 }
