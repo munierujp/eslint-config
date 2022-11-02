@@ -18,11 +18,9 @@ ESLint Shareable Config for JavaScript
 - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
 
-## Usage
+## Installation
 
-### Install packages
-
-#### npm@>=7
+### npm@>=7
 
 Install `@munierujp/eslint-config`.
 
@@ -30,7 +28,7 @@ Install `@munierujp/eslint-config`.
 npm i -D @munierujp/eslint-config
 ```
 
-#### npm@<7
+### npm@<7
 
 Install `@munierujp/eslint-config` and its peer dependencies.
 
@@ -49,7 +47,7 @@ npm i -D \
   @munierujp/eslint-config
 ```
 
-### Use in ESLint config
+## Usage
 
 Add `@munierujp` to `extends` of your ESLint config.
 
