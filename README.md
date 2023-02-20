@@ -5,6 +5,13 @@
 
 ESLint Shareable Config for JavaScript
 
+## Overview
+
+`@munierujp/eslint-config` is using following configurations and plugins.
+
+- [@eslint-recommended/eslint-config](https://www.npmjs.com/package/@eslint-recommended/eslint-config)
+- [eslint-plugin-import-newlines](https://www.npmjs.com/package/eslint-plugin-import-newlines)
+
 ## Installation
 
 Install `@munierujp/eslint-config`.
