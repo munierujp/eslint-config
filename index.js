@@ -2,7 +2,7 @@
 
 /** @typedef {import('eslint').ESLint.ConfigData} ConfigData */
 
-/** @type {ConfigData["rules"]} */
+/** @type {ConfigData['rules']} */
 const unicornRules = {
   // ファイル名のケースはものによって異なる（関数はローワーキャメルケース、クラスはアッパーキャメルケースなど）ので無効化
   'unicorn/filename-case': 'off',
@@ -26,7 +26,7 @@ const unicornRules = {
   'unicorn/switch-case-braces': ['error', 'avoid']
 }
 
-/** @type {ConfigData["rules"]} */
+/** @type {ConfigData['rules']} */
 const importRules = {
   // 標準のソートを無効化
   'sort-imports': 'off',
