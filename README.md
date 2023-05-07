@@ -27,7 +27,7 @@ Add `@munierujp` to `extends` of your ESLint config.
 ```js
 module.exports = {
   extends: [
-    '"@munierujp'
+    '@munierujp'
     // add other rulesets here if needed
   ],
   rules: {
