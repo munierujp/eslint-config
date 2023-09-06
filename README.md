@@ -35,3 +35,8 @@ module.exports = {
   }
 }
 ```
+
+## Related packages
+
+- [@munierujp/eslint-config-typescript](https://www.npmjs.com/package/@munierujp/eslint-config-typescript)
+
