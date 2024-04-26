@@ -6,6 +6,11 @@
 
 ESLint Shareable Config for JavaScript
 
+## Requirements
+
+- Node.js v20 or later
+- ESLint v8
+
 ## Installation
 
 npm:
