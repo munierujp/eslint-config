@@ -27,7 +27,7 @@ yarn add -D @munierujp/eslint-config
 
 ## Usage
 
-Add `@munierujp` to `extends` of your ESLint config.
+Add `@munierujp` to the `extends` section of your [ESLint configuration file](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated).
 
 ```js
 module.exports = {
