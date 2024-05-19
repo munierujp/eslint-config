@@ -65,7 +65,7 @@ JSON:
 }
 ```
 
-## Related packages
+## Related Packages
 
 - [@munierujp/eslint-config-typescript](https://www.npmjs.com/package/@munierujp/eslint-config-typescript)
 
