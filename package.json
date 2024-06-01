@@ -1,6 +1,6 @@
 {
   "name": "@munierujp/eslint-config",
-  "version": "30.0.3",
+  "version": "30.1.0",
   "description": "ESLint Shareable Config for JavaScript",
   "scripts": {
     "lint": "eslint '**/*.{js,mjs,cjs}'",
